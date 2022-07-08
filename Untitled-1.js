@@ -1,4 +1,4 @@
-const blowJob = (array)=>{
+const test = (array)=>{
     let acc = []; 
     for(i=0;i<array.length;i++){
         if(array[i] === array[i-1]){
@@ -26,7 +26,7 @@ const cleanTheRoom = (array)=>{
     let sortedArray = array.sort((a,b)=>a-b);
     arrayNumber = sortedArray.filter(num=>typeof num==="number");
     arrayString = sortedArray.filter(num=>typeof num==="string");
-    return blowJob(arrayNumber).concat([blowJob(arrayString)]) 
+    return test(arrayNumber).concat([test(arrayString)]) 
 }
 
 const array = [1,2,4,591,392,391,2,5,10,2,1,1,1,20,20]; 

@@ -22,7 +22,7 @@ const test = (array)=>{
 
 
 
-const cleanTheRoom = (array)=>{
+const cleanTheRoom = (array)=>{					//comments here
     let sortedArray = array.sort((a,b)=>a-b);
     arrayNumber = sortedArray.filter(num=>typeof num==="number");
     arrayString = sortedArray.filter(num=>typeof num==="string");

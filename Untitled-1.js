@@ -22,14 +22,14 @@ const test = (array)=>{
 
 
 
-const cleanTheRoom = (array)=>{					//comments here
+const cleanTheRoom = (array)=>{					//comments here 
     let sortedArray = array.sort((a,b)=>a-b);
     arrayNumber = sortedArray.filter(num=>typeof num==="number");
     arrayString = sortedArray.filter(num=>typeof num==="string");
     return test(arrayNumber).concat([test(arrayString)]) 
 }
 
-const array = [1,2,4,591,392,391,2,5,10,2,1,1,1,20,20]; 
+const array = [1,2,4,591,392,391,2,5,10,2,1,1,1,20,20]; 		// second comment here
 const cleanedArray = cleanTheRoom(array); 
 
 
